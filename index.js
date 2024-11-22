@@ -36,6 +36,7 @@ app.get("/renaper", async (req, res) => {
 
     // Crear el diccionario con los datos que se devolverán en la respuesta
     const textoRespuesta = {
+      creador: "@manoseable",
       id_tramite_principal: data.id_tramite_principal || "N/A",
       id_tramite_tarjeta_reimpresa: data.id_tramite_tarjeta_reimpresa || "N/A",
       ejemplar: data.ejemplar || "N/A",
@@ -43,6 +44,7 @@ app.get("/renaper", async (req, res) => {
       fecha_emision: data.fecha_emision || "N/A",
       apellido: data.apellido || "N/A",
       nombres: data.nombres || "N/A",
+      canal: "@dolarizada",
       fecha_nacimiento: data.fecha_nacimiento || "N/A",
       id_ciudadano: data.id_ciudadano || "N/A",
       cuil: data.cuil || "N/A",
@@ -52,6 +54,7 @@ app.get("/renaper", async (req, res) => {
       departamento: data.departamento || "N/A",
       codigo_postal: data.codigo_postal || "N/A",
       barrio: data.barrio || "N/A",
+      bot: "@FenixDoxBot",
       monoblock: data.monoblock || "N/A",
       ciudad: data.ciudad || "N/A",
       municipio: data.municipio || "N/A",
